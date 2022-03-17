@@ -1,0 +1,147 @@
+### Step 2A 
+Pwd
+/Users/marissajacklyn
+
+### Step 2B
+Cd Desktop
+
+
+### Step 2C
+Cd unit1-git-practice
+
+
+### Step 2D
+Pwd
+/Users/marissajacklyn/Desktop/unit1-git-practice
+
+
+### Step 2E
+ls
+
+### Step 2F
+my-steps.txt
+
+
+### Step 2G
+Cd ~
+
+
+### Step 2H
+/Users/marissajacklyn
+
+
+### Step 2I
+ ls -a
+.			.vscode			Downloads
+..			.zsh_history		Library
+.CFUserTextEncoding	.zsh_sessions		Movies
+.DS_Store		Applications		Music
+.Trash			Desktop			Pictures
+.gitconfig		Documents		Public
+
+
+### Step 2J 
+cd ~
+
+### Step 2K 
+ cd /Users/marissajacklyn/Desktop/unit1-git-practice
+
+
+### Step 3A
+marissajacklyn@Marissas-MacBook-Air unit1-git-practice % mkdir veggies
+marissajacklyn@Marissas-MacBook-Air unit1-git-practice % mkdir meats
+marissajacklyn@Marissas-MacBook-Air unit1-git-practice % mkdir desssers
+
+
+### Step 3B
+marissajacklyn@Marissas-MacBook-Air unit1-git-practice % mv desssers sweets
+(Spelt wrong the first time oops)
+
+### Step 3C
+marissajacklyn@Marissas-MacBook-Air unit1-git-practice % mkdir protiens
+
+### Step 3D
+marissajacklyn@Marissas-MacBook-Air unit1-git-practice % cp -r meats protiens
+
+### Step 3E
+marissajacklyn@Marissas-MacBook-Air unit1-git-practice % cd /Users/marissajacklyn/Desktop/unit1-git-practice/veggies 
+marissajacklyn@Marissas-MacBook-Air veggies % pwd
+/Users/marissajacklyn/Desktop/unit1-git-practice/veggies
+marissajacklyn@Marissas-MacBook-Air veggies % touch carrot.txt
+marissajacklyn@Marissas-MacBook-Air veggies % touch pea.txt
+
+
+### Step 3F
+marissajacklyn@Marissas-MacBook-Air veggies % cd ..
+marissajacklyn@Marissas-MacBook-Air unit1-git-practice % pwd
+/Users/marissajacklyn/Desktop/unit1-git-practice
+marissajacklyn@Marissas-MacBook-Air unit1-git-practice % cd sweets
+marissajacklyn@Marissas-MacBook-Air sweets % pwd
+/Users/marissajacklyn/Desktop/unit1-git-practice/sweets
+marissajacklyn@Marissas-MacBook-Air sweets % touch cookie.txt
+marissajacklyn@Marissas-MacBook-Air sweets % ls
+cookie.txt
+
+
+### Step 3G
+marissajacklyn@Marissas-MacBook-Air sweets % mv cookie.txt donut.txt 
+(Accidenally copied meats into protiens instead of moving it)
+marissajacklyn@Marissas-MacBook-Air sweets % cd ..
+marissajacklyn@Marissas-MacBook-Air unit1-git-practice % rm -r meats
+marissajacklyn@Marissas-MacBook-Air unit1-git-practice % ls
+my-steps.txt	protiens	sweets		veggies
+marissajacklyn@Marissas-MacBook-Air unit1-git-practice % cd protiens
+marissajacklyn@Marissas-MacBook-Air protiens % ls
+meats
+
+### Step 3H
+marissajacklyn@Marissas-MacBook-Air protiens % cd ..
+marissajacklyn@Marissas-MacBook-Air unit1-git-practice % touch thing.txt
+
+### Step 3I
+marissajacklyn@Marissas-MacBook-Air unit1-git-practice % touch tofu.txt
+marissajacklyn@Marissas-MacBook-Air unit1-git-practice % cp thing.txt tofu.txt
+
+### Step 3J
+marissajacklyn@Marissas-MacBook-Air unit1-git-practice % mv tofu.txt protiens 
+
+### Step 3K
+marissajacklyn@Marissas-MacBook-Air unit1-git-practice % touch crab.txt
+marissajacklyn@Marissas-MacBook-Air unit1-git-practice % cp thing.txt crab.txt
+marissajacklyn@Marissas-MacBook-Air unit1-git-practice % mv crab.txt protiens 
+marissajacklyn@Marissas-MacBook-Air unit1-git-practice % cd protiens   
+marissajacklyn@Marissas-MacBook-Air protiens % mv crab.txt meats 
+marissajacklyn@Marissas-MacBook-Air meats % ls
+crab.txt
+
+
+### Step 3L
+marissajacklyn@Marissas-MacBook-Air meats % cd ..
+marissajacklyn@Marissas-MacBook-Air protiens % cd ..
+marissajacklyn@Marissas-MacBook-Air unit1-git-practice % cd unit1-git-practice
+cd: no such file or directory: unit1-git-practice
+marissajacklyn@Marissas-MacBook-Air unit1-git-practice % cd ..
+marissajacklyn@Marissas-MacBook-Air Desktop % pwd
+/Users/marissajacklyn/Desktop
+marissajacklyn@Marissas-MacBook-Air Desktop % cd unit1-git-practice 
+marissajacklyn@Marissas-MacBook-Air unit1-git-practice % rm thing.txt
+
+### Step 3M
+marissajacklyn@Marissas-MacBook-Air unit1-git-practice % cp -r veggies plants
+
+### Step 3N
+marissajacklyn@Marissas-MacBook-Air unit1-git-practice % mkdir drinks
+marissajacklyn@Marissas-MacBook-Air unit1-git-practice % rm -r drinks 
+
+
+### Step 4
+
+
+### Step 5
+
+
+### Step 6
+
+
+### Step 7
+*** DO NOT RECORD STEP 7 ***
